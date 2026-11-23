@@ -77,19 +77,3 @@ tests/                    Birim testleri
 pyproject.toml            Paket ve bağımlılık yapılandırması
 .gitignore                Git dışlama kuralları
 ```
-
-## Geliştirme Akışı
-
-1. Ses veri setini toplayın veya açık kaynak bir veri seti hazırlayın.
-2. Verileri temizleyin, 16 kHz/mono olacak şekilde işleyin.
-3. MFCC ve diğer akustik öznitelikleri çıkarın.
-4. Cinsiyet ve konuşmacı modellerini eğitin ve doğrulayın.
-5. Modelleri `models/` klasörüne Joblib biçiminde kaydedin.
-6. Streamlit arayüzünden dosya veya mikrofon kaydıyla uçtan uca test edin.
-
-## Git Kuralları
-
-- Sanal ortam (`.venv/`) ve önbellek klasörleri izlenmez.
-- Eğitilmiş model dosyaları, ham ses verileri ve kişisel yüklemeler sürüm kontrolüne eklenmemelidir.
-- Proposal, roadmap, PDF dosyaları ve dönüştürülen metin dosyaları dışlanır.
-- `README.md` hariç Markdown dokümanları varsayılan olarak dışlanır.
