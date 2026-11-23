@@ -43,7 +43,7 @@ streamlit run app/main.py
 
 Uygulama varsayılan olarak `http://localhost:8501` adresinde açılır.
 
-## Model Dosyaları
+## Model Dosyaları (Model Eğitecek Arkadaşlar Dikkat)
 
 Cinsiyet ve konuşmacı modellerini şu konumlara yerleştirin:
 
