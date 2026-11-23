@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Runtime and uploads
+.streamlit/secrets.toml
+uploads/
+*.tmp
+
+# Notebook/output
+.ipynb_checkpoints/
+outputs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project documents and source extracts
+*.pdf
+*.txt
+*.md
+!README.md
